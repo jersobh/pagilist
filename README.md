@@ -11,9 +11,9 @@ page_sample = paginate(list, page, limit)
 
 ##OR##
 
-offset = 3 #start from the third element on list
-page_offset = paginate_offset(list, page, 5) #get from the third element to fifth element
+offset = 3 #start from the fourth element on list
+page_offset = paginate_offset(list, offset, 5) #get from the fourth element with a limit of 5 elements
 
 print(page_sample) #outputs [1, 2, 3]
-print(page_offset) #outputs [1, 2, 3, 4, 5]
+print(page_offset) #outputs [4, 5, 6, 7, 8]
 </pre>
