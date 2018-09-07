@@ -5,6 +5,7 @@ Simple module to paginate lists using page or limit/offset. Source code availabl
 
 ### Usage
 <pre>
+list = [n for n in range(1, 9)]
 page = 0 #first page
 limit = 3 #three items per page
 page_sample = paginate(list, page, limit)
