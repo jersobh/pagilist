@@ -9,9 +9,11 @@ setuptools.setup(
     author="jersobh",
     author_email="jersobh@gmail.com",
     description="List pagination by page or limit,offset",
-    long_description=long_description,
+    long_description="Simple module to paginate lists using page or
+limit/offset. Source code available at
+[Github](https://github.com/jersobh/pagilist).",
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/jersobh/pagilist",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
